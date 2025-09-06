@@ -4,10 +4,12 @@ A centralized agriculture platform for farmers, corporations and vendors.
 
 See the live demo:
 [agriconnect-029l.onrender.com](https://agriconnect-029l.onrender.com/)
+**(Can take upto a minute to start)**
 
 ## Setting up locally
 
-0. First, make sure you have [Node.js](https://nodejs.org/) installed on your system.
+0. First, make sure you have [Node.js](https://nodejs.org/) installed on your
+system.
 
 ```bash
 node -v
