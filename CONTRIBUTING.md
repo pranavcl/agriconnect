@@ -1,5 +1,8 @@
 # Contribution Guidelines
 
+Please [create a new issue](https://github.com/pranavcl/agriconnect/issues)
+before you start working on it.
+
 In your first PR, append a single line with your GitHub username (and
 optionally your email) in `/CONTRIBUTORS.txt`
 
@@ -8,19 +11,13 @@ make sure you append a hyphen + the language code of the webpage in the
 filename.
 
 This is good:
-
 `login-en.mustache`
-
 `listings-kn.mustache`
-
 `logout-confirmation-hi.mustache`
 
-This is NOT good:
-
+This is **NOT** good:
 `login.mustache`
-
 `listings.mustache`
-
 `logout-confirmation.mustache`
 
 We recommend that you create versions of your webpage for all (or as many)
@@ -59,7 +56,8 @@ if (foo < bar) {
 This is NOT good:
 
 ```typescript
-if (foo < bar) {
+if (foo < bar)
+{
 	console.log("Foobar");
 }
 ```

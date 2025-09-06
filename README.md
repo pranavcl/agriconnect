@@ -6,10 +6,16 @@ See the live demo:
 [agriconnect-029l.onrender.com](https://agriconnect-029l.onrender.com/)
 **(Can take upto a minute to start)**
 
+## Contributions
+
+This project welcomes contributions. Please see
+[CONTRIBUTING.md](https://github.com/pranavcl/agriconnect/blob/main/CONTRIBUTING.md)
+for more information.
+
 ## Setting up locally
 
 0. First, make sure you have [Node.js](https://nodejs.org/) installed on your
-system.
+   system.
 
 ```bash
 node -v
