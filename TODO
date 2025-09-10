@@ -1,0 +1,5 @@
+- [ ] Make Hindi and Kannada versions of corporate-login
+- [ ] Make Hindi and Kannada versions of corporate-register
+- [x] Make Hindi and Kannada versions of server-message
+- [x] Make corporate register form
+- [ ] Implement DB for corporate-login & corporate-register

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+
+		<title>Corporate Register | AgriConnect</title>
+	</head>
+
+	<body>
+		<h1>Corporate Register</h1>
+		<h2>For registered partners and MNCs</h2>
+
+		<a href="/">Go back</a>
+
+		<form action="/corporate-register" method="POST">
+			<label for="full-name-input">Full Name: </label>
+			<input
+				name="full-name-input"
+				type="text"
+				minlength="6"
+				maxlength="64"
+				required
+			/>
+
+			<label for="email-input"
+				>Official email address (will be used for
+				logging in):</label
+			>
+			<input
+				name="email-input"
+				type="email"
+				minlength="6"
+				maxlength="128"
+				required
+			/>
+
+			<label for="phone-input">Phone number:</label>
+			<input
+				name="phone-input"
+				type="tel"
+				pattern="[0-9]{10}"
+				required
+			/>
+
+			<label for="company-name-input"
+				>Legal registered company name:</label
+			>
+			<input
+				name="company-name-input"
+				type="text"
+				minlength="6"
+				maxlength="80"
+				required
+			/>
+
+			<label for="company-type-input">Company type:</label>
+			<select name="company-type-input">
+				<option value="pvt-ltd">Private Limited</option>
+				<option value="llp">LLP</option>
+				<option value="partnership">Partnership</option>
+				<option value="public-co">
+					Public Company
+				</option>
+				<option value="sole-prop">
+					Sole Proprietorship
+				</option>
+			</select>
+
+			<label for="gstin-input"
+				>Company GSTIN (if annual turnover exceeds 20
+				lacs INR):</label
+			>
+			<input name="gstin-input" type="text" maxlength="15" />
+
+			<label for="pan-input">PAN Number:</label>
+			<input
+				name="pan-input"
+				type="text"
+				maxlength="10"
+				required
+			/>
+
+			<label for="address-line-1-input"
+				>Address Line 1:</label
+			>
+			<input
+				name="address-line-1-input"
+				type="text"
+				minlength="10"
+				maxlength="100"
+				required
+			/>
+
+			<label for="address-line-2-input"
+				>Address Line 2:</label
+			>
+			<input
+				name="address-line-2-input"
+				type="text"
+				minlength="10"
+				maxlength="100"
+				required
+			/>
+
+			<label for="industry-type-input">Industry type:</label>
+			<select name="industry-type-input">
+				<option value="fmcg">FMCG</option>
+				<option value="agri-buyer">Agri Buyer</option>
+				<option value="food-processing">
+					Food Processing
+				</option>
+				<option value="catering">Catering</option>
+			</select>
+
+			<label for="authorized-signatory-designation-input"
+				>Authorized Signatory Designation:</label
+			>
+			<input
+				name="authorized-signatory-designation-input"
+				type="text"
+				minlength="6"
+				maxlength="24"
+				required
+			/>
+
+			<label for="company-website-input"
+				>Company Website URL (optional):</label
+			>
+			<input
+				name="company-website-input"
+				type="text"
+				minlength="6"
+				maxlength="64"
+			/>
+
+			<input type="submit" />
+		</form>
+
+		<a href="/corporate-login"
+			>Already have an account? Click here to login.</a
+		>
+	</body>
+</html>

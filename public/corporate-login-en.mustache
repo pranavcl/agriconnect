@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+
+		<title>Corporate Login | AgriConnect</title>
+	</head>
+
+	<body>
+		<h1>Corporate Login</h1>
+		<h2>For registered partners and MNCs</h2>
+
+		<a href="/">Go back</a>
+
+		<form action="/corporate-login" method="POST">
+			<label for="email-input">Email:</label>
+			<input
+				name="email-input"
+				type="email"
+				minlength="6"
+				maxlength="128"
+				required
+			/>
+
+			<label for="password-input">Password:</label>
+			<input
+				name="password-input"
+				type="password"
+				minlength="6"
+				maxlength="128"
+				required
+			/>
+
+			<input type="submit" />
+		</form>
+		<a href="/corporate-register">Register as a partner</a>
+	</body>
+</html>
