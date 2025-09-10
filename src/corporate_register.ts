@@ -77,7 +77,7 @@ const messages: Record<string, Record<string, string>> = {
 		invalid_website:
 			"Website URL अमान्य है (प्रोटोकॉल सहित, उदाहरण: https://)।",
 	},
-	kd: {
+	kn: {
 		missing_fields:
 			"ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಅಗತ್ಯ ಕ್ಷೇತ್ರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ.",
 		invalid_full_name:
@@ -98,7 +98,7 @@ const messages: Record<string, Record<string, string>> = {
 };
 
 const t = (lang: string | undefined, key: string) => {
-	const l = lang === "hi" ? "hi" : lang === "kd" ? "kd" : "en";
+	const l = lang === "hi" ? "hi" : lang === "kn" ? "kn" : "en";
 	return messages[l][key] || messages["en"][key] || "Invalid input.";
 };
 
